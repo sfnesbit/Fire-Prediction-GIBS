@@ -3,6 +3,13 @@
 ### Sean Nesbit (sfnesbit@calpoly.edu)
 ### Emily Gavrilenko (egavrile@calpoly.edu)
 ---
+## About
+
+A land area's fire risk assessment is a critical feature of wildfire fighting. This project intends to provide a base to easily estimate fire risk based on climate data colleted by the Global Imagery Browse Service (GIBS) and Google Earth Engine. This climate imagery data provides a window into the many climate features that affect how at risk an area is for fires. With this climate data, we can train a Convolutional Neural Network (CNN) to estimate the susceptibility of an area.  
+
+The end goal is to be able to provide a longitude/latitude bounding box and receive the current estimated risk of fires for each 0.1 by 0.1 (long by lat) area utilizing live climate data. From this we can build a visual tiled risk map of the bounding box or raw data for future uses.
+
+---
 ## Requirements
 
 ### **Google Earth Engine**
